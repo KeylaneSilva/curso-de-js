@@ -18,6 +18,12 @@ console.log(box)
 box[0].setAttribute('class', 'escura')
 box[0].removeAttribute('class')
 
+box[0].querySelector('p').innerHTML = 'Imagem de uma logo com o slogan &quot;PRODEFC&quot;'
+box[1].querySelector('h2').innerHTML = 'Seu carro protegido'
+box[1].querySelector('p').innerHTML = 'Projeta seu carro por uma preço que cabe no seu bolso'
+
+box[1].querySelector('p').style.marginTop = '10px'
+
 // MODOS DE COR
 
 let tela = document.querySelector('main')
@@ -37,3 +43,4 @@ function modoLight(){
   console.log('modoLight')
   tela.setAttribute('id', 'btlight')
 }
+
