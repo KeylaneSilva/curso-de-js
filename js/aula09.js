@@ -4,19 +4,21 @@ titulo.innerHTML = 'Aula 09-Manipular CSS - JS'
 
 let image = document.querySelector('#foto')
 image.setAttribute('src', '../images/pride-fc.jpg')
-image.setAttribute('width', '250px')
+image.setAttribute('width', '200px')
 
 titulo.style.color = 'red'
 titulo.style.backgroundColor = '#000'
 titulo.style.borderBottom = '2px solid red'
 titulo.style.padding = '0.625rem'
 titulo.style.borderRadius = '5px'
+titulo.style.width = '420px'
 
 let box = document.querySelectorAll('.box')
 console.log(box)
 
-box[0].setAttribute('class', 'escura')
-box[0].removeAttribute('class')
+box[0].setAttribute('class', 'comprimento escura')
+
+// box[0].removeAttribute('class')
 
 box[0].querySelector('p').innerHTML = 'Imagem de uma logo com o slogan &quot;PRODEFC&quot;'
 box[1].querySelector('h2').innerHTML = 'Seu carro protegido'
