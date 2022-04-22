@@ -18,7 +18,6 @@ document.write(olaMundo2())
 
 let x = 2
 let y = 1
-let mensagem = 'Jesus Cristo é o Salvador.'
 
 // FUNCOES COM PARAMENTRO E SEM RETORNO (procedure)
 function somar(a,b){
